@@ -1,10 +1,10 @@
-let UserName = prompt('ciao, inserisci il tuo nome !!');
-console.log(UserName)
+let userName = prompt('ciao, inserisci il tuo nome !!');
+console.log(userName)
 
-let Cognome = prompt('ciao, inserisci il tuo Cognome!!');
-console.log(Cognome)
+let cognome = prompt('ciao, inserisci il tuo Cognome!!');
+console.log(cognome)
 
-let ColorPrefer = prompt('Qule è il tuo colore preferito?');
-console.log(ColorPrefer)
+let colorPrefer = prompt('Qule è il tuo colore preferito?');
+console.log(colorPrefer)
 
-document.getElementById('output').innerHTML =  `${UserName + Cognome + ColorPrefer}22`;
+document.getElementById('output').innerHTML =  `${userName + cognome + colorPrefer}22`;
